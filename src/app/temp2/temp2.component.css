@@ -1,0 +1,22 @@
+.informBoxBoarder{
+  border-bottom: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  border-top: solid 2px;
+  width: 300px;
+  border-color: cornflowerblue;
+  margin: auto;
+}
+
+.outside {
+  border: solid 3px deepskyblue;
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.component {
+  margin: 10px;
+
+}

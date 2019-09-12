@@ -1,0 +1,22 @@
+
+<div class="outside">
+  <h4>Let's play a cooking game!</h4>
+  <div class="component">
+    <span>Food1 </span>
+    <input type="text" [(ngModel)]="foodName1" >
+  </div>
+  <div class="component">
+    <span>Food2 </span>
+    <input type="text" [(ngModel)]="foodName2">
+  </div>
+  <div *ngIf="isCooking" class="informBoxBoarder">
+    Awsome! {{foodName1}} and {{foodName2}} is ready!
+  </div>
+  <div class="component">
+    <button class="btn btn-dark" (click)="cook()" style="margin-right: 10px"> Cook </button>
+    <button class="btn btn-dark" (click)="reset()"> Reset </button>
+
+  </div>
+</div>
+
+
